@@ -1,0 +1,33 @@
+#######   Cosmology: Planck 2018 + BAO   #######
+
+Omega_bh2: 0.02242
+# measured by relative peak heights, sub-percent error
+
+Omega_ch2: 0.11933
+
+H0: 67.66 
+# km s^-1 Mpc^-1
+
+DN_eff: 0
+
+#######    Inflation: Planck 2018 + BK18   #######
+
+A_s: 2.105e-9
+
+r: 0.036
+
+n_t: 0
+
+cr: 0
+# If cr > 0, apply the consistency relation, otherwise use the provided n_t & f_end
+
+#######    Reheating and Stiff Era    #######
+
+T_re: 1.0e+3
+# GeV
+
+DN_re: 0
+# Number of e-folds during matter-like reheating
+
+kappa10: 1.0
+# rho_stiff/rho_photon at 10 MeV
