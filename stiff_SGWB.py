@@ -286,9 +286,9 @@ class LCDM_SG(LCDM_SN):
 
             if len(f_int)>=2:
                 # do not consider the negative super-horizon contribution from Omega_j, for the moment...    
-                self.g2[i] = integrate.simpson(Ogw_int-Oj_int, f_int) * ln10
+                self.g2[i] = integrate.simpson(Ogw_int-Oj_int, x=f_int) * ln10
                 #self.g2[i] = integrate.simpson(Ogw_int, f_int) * ln10
-                self.w2[i] = integrate.simpson(Opgw_int, f_int) * ln10
+                self.w2[i] = integrate.simpson(Opgw_int, x=f_int) * ln10
             else:
                 self.g2[i] = 0; self.w2[i] = 0
             
